@@ -7,7 +7,7 @@ def reverse_each_word(sentence1)
    new_sentence = sentence.join(" ")
   end
   # binding.pry
-#sentence
+new_sentence
 end
 
 #reverse_each_word("i am a potato")
