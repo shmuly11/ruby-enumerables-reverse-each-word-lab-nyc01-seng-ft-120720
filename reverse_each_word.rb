@@ -4,10 +4,10 @@ def reverse_each_word(sentence1)
 
   sentence.each do |word|
     word.reverse!
-   
+   new_sentence = sentence.join(" ")
   end
   # binding.pry
-sentence
+#sentence
 end
 
 #reverse_each_word("i am a potato")
