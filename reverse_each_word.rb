@@ -6,7 +6,7 @@ def reverse_each_word(sentence1)
     word.reverse!
    
   end
-   binding.pry
+  # binding.pry
 sentence
 end
 
