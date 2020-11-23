@@ -4,8 +4,9 @@ def reverse_each_word(sentence1)
 
   sentence.each do |word|
     word.reverse!
-   new_sentence = sentence.join(" ")
+   
   end
+  new_sentence = sentence.join(" ")
   # binding.pry
 new_sentence
 end
