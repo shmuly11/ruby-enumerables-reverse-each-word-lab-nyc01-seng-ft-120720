@@ -5,7 +5,7 @@ def reverse_each_word(sentence1)
   sentence.each do |word|
     word.reverse
   end
-
+sentence
 end
 
 #reverse_each_word("i am a potato")
