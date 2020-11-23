@@ -9,3 +9,4 @@ def reverse_each_word(sentence1)
 
 end
 
+reverse_each_word("i am a potato")
