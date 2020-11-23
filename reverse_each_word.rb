@@ -11,4 +11,14 @@ def reverse_each_word(sentence1)
 new_sentence
 end
 
-#reverse_each_word("i am a potato")
+def reverse_each_word(sentence2)
+ sentence = sentence2.split(" ")
+
+  sentence.collect do |word|
+    word.reverse!
+   
+  end
+  new_sentence = sentence.join(" ")
+  # binding.pry
+new_sentence
+end
