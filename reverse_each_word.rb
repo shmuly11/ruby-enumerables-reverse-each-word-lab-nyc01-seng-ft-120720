@@ -18,7 +18,7 @@ def reverse_each_word(sentence2)
     word.reverse!
    
   end
-  #new_sentence = sentence.join(" ")
+  new_sentence = sentence.join(" ")
   # binding.pry
-#new_sentence
+new_sentence
 end
